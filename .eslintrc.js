@@ -10,7 +10,10 @@ module.exports = {
   overrides: [
   ],
   parserOptions: {
-    ecmaVersion: 13,
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 12,
     sourceType: 'module',
   },
   plugins: [

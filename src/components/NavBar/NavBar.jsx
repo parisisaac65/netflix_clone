@@ -1,30 +1,17 @@
-import React, { useState } from "react";
-import { findRenderedComponentWithType } from "react-dom/test-utils";
-import {
-  AppBar,
-  IconButton,
-  Toolbar,
-  Drawer,
-  Button,
-  Avatar,
-  useMediaQuery,
-} from "@mui/material";
-import {
-  Menu,
-  AccountCircle,
-  Brightness4,
-  Brightness7,
-} from "@mui/icons-material";
-import { Link } from "react-router-dom";
-import { useTheme } from "@mui/material/styles";
+import React, { useState } from 'react';
+import { findRenderedComponentWithType } from 'react-dom/test-utils';
+import { AppBar, IconButton, Toolbar, Drawer, Button, Avatar, useMediaQuery } from '@mui/material';
+import { Menu, AccountCircle, Brightness4, Brightness7 } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
+import { useTheme } from '@mui/material/styles';
 
-import { Sidebar } from "..";
-import useStyles from "./styles";
+import { Sidebar, Search } from '..';
+import useStyles from './styles';
 
 const NavBar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const classes = useStyles();
-  const isMobile = useMediaQuery("(max-width:600px)");
+  const isMobile = useMediaQuery('(max-width:600px)');
   const theme = useTheme();
   const isAuthenticated = true;
 
@@ -36,7 +23,7 @@ const NavBar = () => {
             <IconButton
               color="inherit"
               edge="start"
-              style={{ outline: "none" }}
+              style={{ outline: 'none' }}
               onClick={() => setMobileOpen((prevMobileOpen) => !prevMobileOpen)}
               className={classes.menuButton}
             >
@@ -44,9 +31,9 @@ const NavBar = () => {
             </IconButton>
           )}
           <IconButton color="inherit" sx={{ ml: 1 }} onClick={() => {}}>
-            {theme.palette.mode === "dark" ? <Brightness7 /> : <Brightness4 />}
+            {theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 />}
           </IconButton>
-          {!isMobile && "Search..."}
+          {!isMobile && <Search /> }
           <div>
             {!isAuthenticated ? (
               <Button color="inherit" onClick={() => {}}>
@@ -69,7 +56,7 @@ const NavBar = () => {
               </Button>
             )}
           </div>
-          {isMobile && "Search..."}
+          {isMobile && <Search />}
         </Toolbar>
       </AppBar>
       <div>
