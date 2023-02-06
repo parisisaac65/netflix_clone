@@ -147,9 +147,11 @@ const MovieInformation = () => {
         closeAfterTransition
         className={classes.modal}
         open={open}
+        tabIndex={-1}
         onClose={() => setOpen(false)}
       >
-        {data?.videos?.results?.length > 0 && (
+        <div>
+          {data?.videos?.results?.length > 0 && (
           <iframe
             autoPlay
             className={classes.video}
@@ -158,7 +160,8 @@ const MovieInformation = () => {
             src={`https://www.youtube.com/embed/${data.videos.results[0].key}`}
             allow="autoplay"
           />
-        )}
+          )}
+        </div>
       </Modal>
     </Grid>
   );
