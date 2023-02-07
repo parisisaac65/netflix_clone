@@ -19,8 +19,6 @@ const Search = () => {
     }
   };
 
-  if (location.pathname === '/') return null;
-
   return (
     <div className={classes.searchContainer}>
       <TextField
