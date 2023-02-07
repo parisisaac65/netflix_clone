@@ -1,23 +1,12 @@
-<!-- # Netflix-Clone -->
 <h1 align="center">
     Netflix-Clone
 </h1>
 
 <p align="center">
-
   <img src="https://fontmeme.com/permalink/230207/f1f2960e76f9d56f6615487f38f845ee.png">
-
-</p>
-
-<p align="center">
-
-  <a href="https://netflix-clone-pi65.netlify.app/">Click here to view project!>
+  <a href="https://netflix-clone-pi65.netlify.app/">Click here to view project!</a>
   <img src="/src/assets/images/screenshot_netflix_clone.png">
-
 </p>
-
-[Click here to view project!]("https://netflix-clone-pi65.netlify.app/")
-
 
 
 ## Description
