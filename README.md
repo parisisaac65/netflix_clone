@@ -6,15 +6,14 @@
   <img src="https://fontmeme.com/permalink/230207/f1f2960e76f9d56f6615487f38f845ee.png">
 </p>
 
-<a align="center" href="https://netflix-clone-pi65.netlify.app/">
-    Click here to view project!
-</a>
-
 ![Image of web application](/src/assets/images/screenshot_netflix_clone.png)
+
+## View Project
+[Click here to view project](https://netflix-clone-pi65.netlify.app/)
+
 
 ## Description
 This is a netflix clone web application built using ReactJS, Redux, Material UI, [Alan Conversational AI Platform](https://alan.app/), and [The Movie DB](https://www.themoviedb.org/). API calls are made with axios and Redux. 
-
 
 ### Features: 
 * User authentication to login and logout
