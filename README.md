@@ -1,5 +1,7 @@
 <!-- # Netflix-Clone -->
-<h1 style="text-align: center;">Netflix-Clone</h1>
+<h1 text-align="center">
+    Netflix-Clone
+</h1>
 
 <p align="center">
 
@@ -9,16 +11,14 @@
 
 <p align="center">
 
-  <img src="/src/assets/images/screenshot_netflix_clone.png">
   <a href="https://netflix-clone-pi65.netlify.app/">Click here to view project!</a>
+  <img src="/src/assets/images/screenshot_netflix_clone.png">
 
 </p>
 
 
 <!-- ![picture of Netflix Logo](https://fontmeme.com/permalink/230207/f1f2960e76f9d56f6615487f38f845ee.png)
 
-
-[Click here to view project](https://netflix-clone-pi65.netlify.app/)
 
 ![Image of web application](/src/assets/images/screenshot_netflix_clone.png) -->
 
