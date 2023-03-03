@@ -15,8 +15,8 @@ const categories = [
   { label: 'Upcoming', value: 'upcoming' },
 ];
 
-const redLogo = 'https://fontmeme.com/permalink/230207/f1f2960e76f9d56f6615487f38f845ee.png';
-const blueLogo = 'https://fontmeme.com/permalink/230207/f3be64cfdd4aabfcccf33479f5a48e78.png';
+const redLogo = 'https://fontmeme.com/permalink/230303/6b75afdbb45add46d9a9cffeb3da90d2.png';
+const blueLogo = 'https://fontmeme.com/permalink/230303/66c3b765431b18310da84b1787350760.png';
 
 const Sidebar = ({ setMobileOpen }) => {
   const { genreIdOrCategoryName } = useSelector((state) => state.currentGenreOrCategory);
